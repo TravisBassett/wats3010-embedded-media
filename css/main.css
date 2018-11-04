@@ -8,10 +8,11 @@
 aside#social{
     background: lime;
     width: 200px;
-    height: 300px;
+    height: auto;
     position: fixed;
     top: 50px;
     right: 20px;
+    cursor: pointer;
 }
 
 ul.social-links{
@@ -22,10 +23,24 @@ aside#social:hover ul.social-links{
     display: block;
 }
 
- html {
-     margin: 0;
-     padding: 0;
- }
+/*Background styling*/
+
+html{
+    background-image: url(img/monkey_crystal.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 3rem auto;
+    width: 75%;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(43, 88, 160,.9);
+}
  
  header{
      height: 300px;
