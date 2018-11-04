@@ -8,11 +8,13 @@
 /*formatting sidebar social links to horizontal*/
 aside#social li{
         display: block;
+        padding-right: 30px;
+        padding-bottom: 10px;
 }
 
 aside#social{
     background: rgba(50,205,50,0.5);
-    width: 200px;
+    width: auto;
     height: auto;
     position: fixed;
     top: 100px;
@@ -25,7 +27,7 @@ aside#social{
 
 aside#social:hover {
     background: rgba(50,205,50);
-    width: 200px;
+    width: auto;
     height: auto;
     position: fixed;
     top: 100px;
@@ -70,18 +72,22 @@ body{
      background-repeat: no-repeat;
      background-size: cover;
      padding: 100px 20px 20px 20px;
-     border: 2px solid white;
+     border: 4px solid white;
  }
 
 h1{
-    background: rgba(255,255,255,0.6);
     padding: 5px;
-    width: 15%;
+    font-size: 50px;
+}
+
+* {
+    font-family: cursive;
+    padding-right: 20px;
 }
 
 footer{
     background: lime;
-    border: 2px solid white;
+    border: 4px solid white;
     padding: 10px;
 }
 
