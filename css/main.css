@@ -6,13 +6,29 @@
  *****************************************************************************/
 
 aside#social{
-    background: lime;
+    background: rgba(50,205,50,0.5);
     width: 200px;
     height: auto;
     position: fixed;
     top: 50px;
     right: 20px;
     cursor: pointer;
+    padding-left: 20px;
+    border: 2px solid black;
+    border-radius: 50px; 
+}
+
+aside#social:hover{
+    background: rgba(50,205,50;
+    width: 200px;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
 }
 
 ul.social-links{
@@ -26,9 +42,9 @@ aside#social:hover ul.social-links{
 /*Background styling*/
 
 html{
-    background-image: url(img/monkey_crystal.jpg);
+    background-image: url(../img/monkey_crystal.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
@@ -38,7 +54,7 @@ body{
     width: 75%;
     padding: 2rem;
     border: 2px solid black;
-    border-radius: 50px;
+    /*border-radius: 50px;*/
     background-color: rgb(43, 88, 160,.9);
 }
  
@@ -77,4 +93,7 @@ section{
     padding-bottom: 25px;
     padding-left: 10px;
     padding-right: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 10px;
 }
