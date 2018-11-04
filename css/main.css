@@ -51,6 +51,7 @@ aside#social:hover ul.social-links{
 
 /*Background styling for html and body elements*/
 html{
+    background-attachment: fixed;
     background-image: url(../img/monkey_crystal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
