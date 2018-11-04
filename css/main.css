@@ -5,6 +5,11 @@
  * Site Styles
  *****************************************************************************/
 
+/*formatting sidebar social links to horizontal*/
+aside#social li{
+        display: block;
+}
+
 aside#social{
     background: rgba(50,205,50,0.5);
     width: 200px;
@@ -55,7 +60,7 @@ body{
     width: 75%;
     padding: 2rem;
     border: 2px solid black;
-    background-color: rgb(43, 88, 160,.9);
+    background-color: rgb(173,216,230, 0.8);
 }
  
  header{
@@ -75,26 +80,26 @@ h1{
 }
 
 footer{
-    background: grey;
+    background: lime;
     border: 2px solid white;
     padding: 10px;
 }
 
 section#watch{
-    background: yellow;
+    background: orange;
 }
 
 section#about{
-    background: yellow;
+    background: teal;
 }
 
 section#listen{
-    background: purple;
+    background: lime;
 }
 
 section{
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
     border: 2px solid black;
