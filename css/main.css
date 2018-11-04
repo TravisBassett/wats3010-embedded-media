@@ -10,7 +10,7 @@ aside#social{
     width: 200px;
     height: auto;
     position: fixed;
-    top: 50px;
+    top: 100px;
     right: 20px;
     cursor: pointer;
     padding-left: 20px;
@@ -18,18 +18,19 @@ aside#social{
     border-radius: 50px; 
 }
 
-aside#social:hover{
-    background: rgba(50,205,50;
+aside#social:hover {
+    background: rgba(50,205,50);
     width: 200px;
     height: auto;
     position: fixed;
-    top: 50px;
+    top: 100px;
     right: 20px;
     cursor: pointer;
     padding-left: 20px;
     border: 2px solid black;
     border-radius: 50px;
 }
+
 
 ul.social-links{
     display: none;
@@ -54,7 +55,6 @@ body{
     width: 75%;
     padding: 2rem;
     border: 2px solid black;
-    /*border-radius: 50px;*/
     background-color: rgb(43, 88, 160,.9);
 }
  
@@ -65,15 +65,19 @@ body{
      background-repeat: no-repeat;
      background-size: cover;
      padding: 100px 20px 20px 20px;
+     border: 2px solid white;
  }
 
 h1{
     background: rgba(255,255,255,0.6);
     padding: 5px;
+    width: 15%;
 }
 
 footer{
     background: grey;
+    border: 2px solid white;
+    padding: 10px;
 }
 
 section#watch{
@@ -81,7 +85,7 @@ section#watch{
 }
 
 section#about{
-    background: cornflowerblue;
+    background: yellow;
 }
 
 section#listen{
@@ -94,6 +98,6 @@ section{
     padding-left: 10px;
     padding-right: 10px;
     border: 2px solid black;
-    border-radius: 50px;
-    margin: 10px;
+    border-radius: 25px;
+    margin: 20px;
 }
